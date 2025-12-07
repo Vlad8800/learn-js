@@ -1,0 +1,46 @@
+Windows Registry Editor Version 5.00
+
+; --- Telegram Desktop ---
+[HKEY_CLASSES_ROOT\telegramapp]
+@="URL:Launch Telegram"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\telegramapp\shell\open\command]
+@="\"C:\\Users\\vlazs\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe\" \"%1\""
+; --- Opera Browser ---
+[HKEY_CLASSES_ROOT\operaapp]
+@="URL:Launch Opera"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\operaapp\shell\open\command]
+@="\"C:\\Users\\vlazs\\AppData\\Local\\Programs\\Opera GX\\opera.exe\" \"%1\""
+
+
+
+; --- Visual Studio Code ---
+[HKEY_CLASSES_ROOT\vscodeapp]
+@="URL:Launch VSCode"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\vscodeapp\shell\open\command]
+@="\"C:\\Users\\vlazs\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+
+;
+
+; --- Notion Desktop ---
+[HKEY_CLASSES_ROOT\notionapp]
+@="URL:Launch Notion"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\notionapp\shell\open\command]
+@="\"C:\\Users\\vlazs\\AppData\\Local\\Programs\\Notion\\Notion.exe\" \"%1\""
+
+
+; --- Steam Client ---
+[HKEY_CLASSES_ROOT\steamapp]
+@="URL:Launch Steam"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\steamapp\shell\open\command]
+@="\"C:\\Program Files (x86)\\Steam\\Steam.exe\" \"%1\""
+

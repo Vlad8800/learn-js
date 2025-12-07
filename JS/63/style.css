@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  height: 100vh; /* щоб flex міг центрувати по вертикалі */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('backgrpound.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#clock-container {
+  display: flex;
+  flex-direction: column; /* дозволяє додавати елементи один під одним */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.1); /* напівпрозорий фон */
+  backdrop-filter: blur(5px);
+}
+
+#clock {
+  font-size: 6.5em;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+#round-btn {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* робить кнопку круглою */
+  background: rgba(255, 255, 255, 0.2); /* напівпрозорий фон */
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#round-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.1);
+}
+
+#round-btn img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
